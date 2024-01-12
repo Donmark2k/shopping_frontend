@@ -1,6 +1,6 @@
 import Header from "@/components/header";
 import Featured from "@/components/featured";
-import {Product} from "@/models/Product";
+import {Product} from "@/models/product";
 import {mongooseConnect} from "@/lib/mongoose";
 import NewProducts from "@/components/newProduct";
 
