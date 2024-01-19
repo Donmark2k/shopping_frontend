@@ -1,10 +1,10 @@
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import styled from "styled-components";
-import Center from "@/components/Center";
+import Center from "@/components/center";
 import {mongooseConnect} from "@/lib/mongoose";
-import {Product} from "@/models/Product";
-import ProductsGrid from "@/components/ProductsGrid";
-import Title from "@/components/Title";
+import {Product} from "@/models/product";
+import ProductsGrid from "@/components/productsGrid";
+import Title from "@/components/title";
 
 export default function ProductsPage({products}) {
   return (
